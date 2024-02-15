@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>北尘的站点地图</title>
+<style>
+/* 默认按钮样式 */
+.button-icon {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 8px;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+.button-icon img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.button-icon:hover, .button-icon:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 按钮模块样式 */
+.button-module {
+  display: flex;
+  flex-wrap: wrap; /* 允许按钮自动换行 */
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+/* 文字说明样式 */
+.button-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* 媒体查询：当屏幕宽度小于768px时应用以下样式 */
+@media (max-width: 768px) {
+  .button-icon {
+    width: 60px; /* 缩小按钮宽度 */
+    height: 60px; /* 缩小按钮高度 */
+  }
+}
+
+/* 媒体查询：当屏幕宽度小于480px时应用以下样式 */
+@media (max-width: 480px) {
+  .button-icon {
+    width: 100%; /* 使按钮宽度占满容器 */
+    height: auto; /* 高度自动调整 */
+    margin: 10px 0; /* 增加按钮之间的垂直间距 */
+  }
+  .button-module {
+    justify-content: center; /* 水平居中按钮 */
+  }
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">北尘的站点地图</h1>
+
+<div class="button-module">
+  <!-- 第一个按钮，点击访问主页 -->
+  <a class="button-icon" href="https://www.beichen.icu">
+    <img src="https://littleskin.cn/avatar/223889?size=36" alt="按钮&1">
+  </a>
+  <div class="button-text">主页</div>
+  
+  <!-- 第二个按钮，点击访问友情链接页面 -->
+  <a class="button-icon" href="https://www.beichen.icu/friendlinks">
+    <img src="https://www.beichen.icu/links.png" alt="按钮&2">
+  </a>
+  <div class="button-text">友情链接</div>
+  
+  <!-- 第三个按钮，点击访问Alist页面 -->
+  <a class="button-icon" href="https://alist.beichen.icu">
+    <img src="https://www.beichen.icu/alist.png" alt="按钮&3">
+  </a>
+  <div class="button-text">Alist</div>
+  
+  <!-- 第四个按钮，点击访问博客页面 -->
+  <a class="button-icon" href="https://blog.beichen.icu">
+    <img src="https://www.beichen.icu/blog.png" alt="按钮&4">
+  </a>
+  <div class="button-text">博客</div>
+  
+  <!-- 第五个按钮，点击访问短网址页面 -->
+  <a class="button-icon" href="https://www.beichen.icu/dq">
+    <img src="https://www.beichen.icu/dq.png" alt="按钮&5">
+  </a>
+  <div class="button-text">打钱</div>
+  
+  <!-- 第六个按钮，点击访问抖音页面 -->
+  <a class="button-icon" href="https://www.douyin.com/user/MS4wLjABAAAAgwbK3SDMw7Tu3mYcf8Pbukct9sE4d_anj6rHmo9cSeWBfdIL0vYypiNofurhM99b">
+    <img src="https://www.beichen.icu/%E6%8A%96%E9%9F%B3.png" alt="按钮&6">
+</a>
+<div class="button-text">抖音</div>
+
+  <!-- 第七个按钮，点击访问b站页面 -->
+  <a class="button-icon" href="https://space.bilibili.com/1299753224">
+    <img src="https://www.beichen.icu/b%E7%AB%99.png" alt="按钮&7">
+</a>
+<div class="button-text">bilibili</div>
+
+</div>
+</body>
+</html>
