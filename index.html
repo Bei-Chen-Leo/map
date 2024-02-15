@@ -35,8 +35,8 @@
 /* 按钮模块样式 */
 .button-module {
   display: flex;
-  flex-wrap: wrap; /* 允许按钮自动换行 */
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between; /* 按钮之间留有间隔 */
   margin: 20px 0;
 }
 
@@ -45,6 +45,7 @@
   text-align: center;
   font-size: 14px;
   margin-top: 5px;
+  color: #888; /* 文字说明颜色 */
 }
 
 /* 媒体查询：当屏幕宽度小于768px时应用以下样式 */
@@ -74,25 +75,25 @@
 <div class="button-module">
   <!-- 第一个按钮，点击访问主页 -->
   <a class="button-icon" href="https://www.beichen.icu">
-    <img src="https://littleskin.cn/avatar/223889?size=36" alt="按钮&1">
+    <img src="https://littleskin.cn/avatar/223889?size=36" alt="主页">
   </a>
   <div class="button-text">主页</div>
   
   <!-- 第二个按钮，点击访问友情链接页面 -->
   <a class="button-icon" href="https://www.beichen.icu/friendlinks">
-    <img src="https://www.beichen.icu/links.png" alt="按钮&2">
+    <img src="https://www.beichen.icu/links.png" alt="友情链接">
   </a>
   <div class="button-text">友情链接</div>
   
   <!-- 第三个按钮，点击访问Alist页面 -->
   <a class="button-icon" href="https://alist.beichen.icu">
-    <img src="https://www.beichen.icu/alist.png" alt="按钮&3">
+    <img src="https://www.beichen.icu/alist.png" alt="Alist">
   </a>
   <div class="button-text">Alist</div>
   
   <!-- 第四个按钮，点击访问博客页面 -->
   <a class="button-icon" href="https://blog.beichen.icu">
-    <img src="https://www.beichen.icu/blog.png" alt="按钮&4">
+    <img src="https://www.beichen.icu/blog.png" alt="博客">
   </a>
   <div class="button-text">博客</div>
   
